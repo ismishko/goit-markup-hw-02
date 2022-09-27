@@ -1,4 +1,56 @@
+:root {
+    --primary-text-color: #757575;
+    --H-and-header: #212121;
+    --logo-and-hover: #2196F3;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: var(--primary-text-color);
 }
+.logo {
+     color: var(--H-and-header);
+}
+.web-color {
+ color: var(--logo-and-hover);
+}
+.list {
+    list-style: none;
+}
+/*навігація по сайту*/
+.site-nav .link {
+    color: var(--H-and-header);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--logo-and-hover);
+}
+/*контакти*/
+.contact-nav .link-contact {
+    color: var(--H-and-header);
+}
+.contact-nav .link-contact:hover,
+.contact-nav .link-contact:focus {
+    color: var(--logo-and-hover);
+}
+.section-title {
+    color: var(--H-and-header);
+}
+/* стиль для заголовків х3*/
+.feature-list .title {
+    color: var(--H-and-header)
+}
+.team-list .title {
+    color: var(--H-and-header)
+}
+.portfolio-list .list {
+    color: var(--H-and-header)
+}
+/* header text color #212121 */ 
+/* main text color #757575 */
+/* text on banner and button color background: #FFFFFF; */
+/* text on banner and button blue: #2196F3; */
+/* text black: #000000; */
+/* big banner: #2F303A; */
+/* our team background and buttons filter: #F5F4FA; */

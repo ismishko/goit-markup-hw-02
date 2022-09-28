@@ -2,11 +2,13 @@
     --primary-text-color: #757575;
     --H-and-header: #212121;
     --logo-and-hover: #2196F3;
+    --button-no-active: #F5F4FA;
+    --background-color: #fff;
 }
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: var(--background-color);
     color: var(--primary-text-color);
 }
 .logo {
@@ -24,6 +26,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--logo-and-hover);
+}
+.site-nav .link.current {
     color: var(--logo-and-hover);
 }
 /*контакти*/
@@ -46,6 +51,29 @@ body {
 }
 .portfolio-list .list {
     color: var(--H-and-header)
+}
+.button {
+    color: var(--H-and-header);
+    background-color: var(--button-no-active);
+}
+.button.primary {
+    background-color: var(--logo-and-hover);
+    color: var(--background-color);
+}
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+.no-italic {
+    font-style: normal;
 }
 /* header text color #212121 */ 
 /* main text color #757575 */

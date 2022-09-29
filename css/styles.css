@@ -95,7 +95,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--H-and-header);
+  color: var(--primary-text-color);
 }
 .contact-nav .link-contact:hover,
 .contact-nav .link-contact:focus {

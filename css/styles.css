@@ -12,6 +12,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background-color);
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px
 }
 /*загальні класи*/
 .list {
@@ -24,7 +26,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--H-and-header);
 }
 .button {
   color: var(--background-color);
@@ -60,13 +62,10 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  color: #ffffff;
+  color: var(--background-color);
 }
 /*логотип сайта*/
 .logo {
@@ -86,7 +85,6 @@ body {
   color: var(--H-and-header);
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
@@ -99,10 +97,8 @@ body {
 }
 .contact-nav .link-contact {
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 .contact-nav .link-contact:hover,
 .contact-nav .link-contact:focus {
@@ -112,18 +108,14 @@ body {
 .title-features {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--H-and-header);
 }
 .p-features {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 /*наша команда*/
 .section-team {
@@ -141,8 +133,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team-text {
-  color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -179,15 +169,11 @@ body {
   list-style: none;
 }
 .google-adress {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--background-color);
 }
 .footer-contact {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);

@@ -14,22 +14,22 @@ body {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 /*загальні класи*/
 .list {
   list-style: none;
 }
 .section-title {
-  color: var(--H-and-header);
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
+  line-height: 1.16;
   color: var(--H-and-header);
 }
 .button {
   color: var(--background-color);
   background-color: var(--logo-and-hover);
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -54,12 +54,9 @@ body {
   background: var(--background-color-secondary);
 }
 .hero-text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
+  line-height: 1.5;
   text-transform: uppercase;
   color: var(--background-color);
 }
@@ -67,10 +64,10 @@ body {
 .logo {
   color: var(--H-and-header);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .web-color {
   color: var(--logo-and-hover);
@@ -79,10 +76,10 @@ body {
 /*навігація по сайту*/
 .site-nav .link {
   color: var(--H-and-header);
-  font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -93,9 +90,10 @@ body {
 }
 .contact-nav .link-contact {
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .contact-nav .link-contact:hover,
 .contact-nav .link-contact:focus {
@@ -103,16 +101,13 @@ body {
 }
 /*Наші переваги*/
 .title-features {
-  font-style: normal;
   font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--H-and-header);
 }
 .p-features {
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 /*наша команда*/
 .section-team {
@@ -125,13 +120,11 @@ body {
   color: var(--H-and-header);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 .team-text {
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 /*сторінка портфоліо*/
 .portfolio-list .list {
@@ -140,6 +133,7 @@ body {
 .button-portfolio {
   background-color: var(--button-no-active);
   color: var(--H-and-header);
+  cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -149,14 +143,13 @@ body {
 .portfolio-header {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--H-and-header);
 }
 .content-portfolio {
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 /*footer*/
 /*контакти*/
@@ -166,22 +159,22 @@ body {
 .logo-footer {
   color: var(--background-color);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .footer-nav {
   list-style: none;
 }
 .google-adress {
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   color: var(--background-color);
+  text-decoration: none;
 }
 .footer-contact {
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  text-decoration: none;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 .google-adress:hover,

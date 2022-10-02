@@ -33,6 +33,7 @@ body {
 }
 .button:hover,
 .button:focus {
+  background-color: #188CE8;
 }
 .visually-hidden {
   position: absolute;
